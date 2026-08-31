@@ -1,0 +1,33 @@
+<svg xmlns='http://www.w3.org/2000/svg' width='600' height='600'>
+<path d="M -30 90 Q 120 40 260 100 Q 400 160 630 70" stroke="#17324D" fill="none" stroke-width="1.1" opacity="0.09"/>
+<path d="M -30 480 Q 180 540 340 470 Q 480 410 630 500" stroke="#17324D" fill="none" stroke-width="1.1" opacity="0.09"/>
+<rect x="482" y="513" width="41" height="14" transform="rotate(3 502 520)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.074"/>
+<rect x="280" y="79" width="21" height="21" transform="rotate(-8 291 90)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.075"/>
+<rect x="23" y="55" width="36" height="20" transform="rotate(0 41 66)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.088"/>
+<rect x="193" y="41" width="38" height="24" transform="rotate(4 212 52)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.083"/>
+<rect x="505" y="202" width="37" height="19" transform="rotate(2 524 212)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.085"/>
+<rect x="170" y="55" width="29" height="26" transform="rotate(3 185 69)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.075"/>
+<rect x="338" y="106" width="21" height="18" transform="rotate(9 348 116)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.064"/>
+<rect x="68" y="62" width="17" height="18" transform="rotate(2 77 71)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.092"/>
+<rect x="179" y="206" width="24" height="18" transform="rotate(8 191 215)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.08"/>
+<rect x="142" y="67" width="38" height="26" transform="rotate(9 161 80)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.066"/>
+<rect x="288" y="497" width="33" height="31" transform="rotate(-9 304 512)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.099"/>
+<rect x="39" y="231" width="17" height="28" transform="rotate(5 47 245)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.099"/>
+<rect x="421" y="513" width="31" height="32" transform="rotate(7 436 529)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.071"/>
+<rect x="507" y="210" width="21" height="14" transform="rotate(-1 518 217)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.064"/>
+<rect x="486" y="514" width="22" height="14" transform="rotate(1 497 521)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.063"/>
+<rect x="287" y="441" width="23" height="20" transform="rotate(11 299 451)" stroke="#17324D" fill="none" stroke-width="0.8" opacity="0.075"/>
+<circle cx="209" cy="528" r="2" fill="#17324D" opacity="0.129"/>
+<circle cx="529" cy="409" r="2" fill="#17324D" opacity="0.105"/>
+<circle cx="412" cy="491" r="2" fill="#17324D" opacity="0.118"/>
+<circle cx="148" cy="181" r="2" fill="#17324D" opacity="0.105"/>
+<circle cx="458" cy="333" r="2" fill="#17324D" opacity="0.113"/>
+<circle cx="489" cy="73" r="2" fill="#17324D" opacity="0.118"/>
+<circle cx="203" cy="334" r="2" fill="#17324D" opacity="0.13"/>
+<circle cx="154" cy="562" r="2" fill="#17324D" opacity="0.085"/>
+<circle cx="336" cy="324" r="2" fill="#17324D" opacity="0.094"/>
+<line x1="337" y1="282" x2="172" y2="242" stroke="#17324D" stroke-width="0.7" stroke-dasharray="3 5" opacity="0.081"/>
+<line x1="85" y1="520" x2="-21" y2="504" stroke="#17324D" stroke-width="0.7" stroke-dasharray="3 5" opacity="0.067"/>
+<line x1="49" y1="420" x2="62" y2="438" stroke="#17324D" stroke-width="0.7" stroke-dasharray="3 5" opacity="0.071"/>
+<line x1="179" y1="539" x2="313" y2="538" stroke="#17324D" stroke-width="0.7" stroke-dasharray="3 5" opacity="0.081"/>
+</svg>

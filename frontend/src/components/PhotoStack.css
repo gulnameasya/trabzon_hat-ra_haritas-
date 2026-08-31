@@ -1,0 +1,56 @@
+.photo-stack {
+  position: relative;
+  width: 680px;
+  max-width: 100%;
+  height: 320px;
+  margin: 0 auto;
+}
+
+.photo-stack__frame {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 220px;
+  height: 165px;
+  background: #fdfaf1;
+  padding: 7px;
+  border-radius: 4px;
+  box-shadow: 0 10px 22px rgba(23, 50, 77, 0.24);
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+}
+
+.photo-stack__frame img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 2px;
+}
+
+/* Dinlenme (rest) konumları — 3. kart (index 2) ortada/önde, 2-4 arkasında,
+   1-5 en arkada. Doğal/rastgele duran eski fotoğraflar hissi için her
+   birinin hafif farklı bir açısı var (simetrik değil). */
+.photo-stack__frame--0 { transform: translate(-50%, -50%) translateX(-235px) scale(0.74) rotate(-9deg); z-index: 3; }
+.photo-stack__frame--1 { transform: translate(-50%, -50%) translateX(-125px) scale(0.87) rotate(5deg);  z-index: 4; }
+.photo-stack__frame--2 { transform: translate(-50%, -50%) translateX(0)      scale(1)    rotate(-2deg); z-index: 5; }
+.photo-stack__frame--3 { transform: translate(-50%, -50%) translateX(125px)  scale(0.87) rotate(-6deg); z-index: 4; }
+.photo-stack__frame--4 { transform: translate(-50%, -50%) translateX(235px)  scale(0.74) rotate(8deg);  z-index: 3; }
+
+/* Aktif kart (hover / mobilde dokunma): ortaya gelir, düzleşir ve belirgin şekilde büyür. */
+.photo-stack__frame.is-active {
+  transform: translate(-50%, -50%) translateX(0) scale(1.48) rotate(0deg);
+  box-shadow: 0 26px 46px rgba(23, 50, 77, 0.4);
+  z-index: 20;
+}
+
+@media (max-width: 900px) {
+  .photo-stack { width: 100%; height: 260px; margin-top: 30px; }
+  .photo-stack__frame { width: 170px; height: 128px; }
+  .photo-stack__frame--0 { transform: translate(-50%, -50%) translateX(-175px) scale(0.74) rotate(-9deg); }
+  .photo-stack__frame--1 { transform: translate(-50%, -50%) translateX(-95px)  scale(0.87) rotate(5deg); }
+  .photo-stack__frame--2 { transform: translate(-50%, -50%) translateX(0)      scale(1)    rotate(-2deg); }
+  .photo-stack__frame--3 { transform: translate(-50%, -50%) translateX(95px)   scale(0.87) rotate(-6deg); }
+  .photo-stack__frame--4 { transform: translate(-50%, -50%) translateX(175px)  scale(0.74) rotate(8deg); }
+  .photo-stack__frame.is-active { transform: translate(-50%, -50%) translateX(0) scale(1.35) rotate(0deg); }
+}

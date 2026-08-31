@@ -1,0 +1,29 @@
+# === Bağımlılıklar ===
+node_modules/
+
+# === Ortam değişkenleri (ASLA commit etmeyin — şifreler/API anahtarları içerir) ===
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# === Next.js ===
+frontend/.next/
+frontend/out/
+
+# === Derleme çıktıları ===
+dist/
+build/
+
+# === Yüklenen kullanıcı fotoğrafları (kişisel veri, repo'ya girmemeli) ===
+backend/uploads/*
+!backend/uploads/.gitkeep
+
+# === Editör / işletim sistemi dosyaları ===
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+*.log
+npm-debug.log*

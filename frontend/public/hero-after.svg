@@ -1,0 +1,39 @@
+<svg viewBox="0 0 400 320" xmlns="http://www.w3.org/2000/svg">
+  <rect width="400" height="320" fill="#F6F1E8"/>
+  <rect x="0" y="230" width="400" height="90" fill="#315C4C" opacity="0.85"/>
+  <line x1="0" y1="230" x2="400" y2="230" stroke="#17324D" stroke-width="1.5"/>
+
+  <rect x="35" y="150" width="55" height="80" fill="#17324D"/>
+  <rect x="42" y="160" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="58" y="160" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="74" y="160" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="42" y="182" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="58" y="182" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="74" y="182" width="10" height="12" fill="#F6F1E8" opacity="0.85"/>
+
+  <rect x="100" y="120" width="42" height="110" fill="#1d4257"/>
+  <rect x="107" y="132" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="121" y="132" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="107" y="155" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="121" y="155" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="107" y="178" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+  <rect x="121" y="178" width="8" height="10" fill="#F6F1E8" opacity="0.85"/>
+
+  <rect x="152" y="165" width="60" height="65" fill="#315C4C"/>
+
+  <circle cx="262" cy="148" r="22" fill="#B66A3C"/>
+  <rect x="250" y="148" width="24" height="82" fill="#17324D"/>
+  <line x1="262" y1="126" x2="262" y2="112" stroke="#B66A3C" stroke-width="2"/>
+  <circle cx="262" cy="108" r="4" fill="#B66A3C"/>
+
+  <line x1="318" y1="230" x2="318" y2="115" stroke="#17324D" stroke-width="2.5"/>
+  <circle cx="318" cy="108" r="6" fill="#B66A3C"/>
+
+  <path d="M340 232 L378 232 L368 250 L348 250 Z" fill="#B66A3C"/>
+  <line x1="358" y1="232" x2="358" y2="212" stroke="#17324D" stroke-width="1.5"/>
+
+  <circle cx="350" cy="55" r="26" fill="#B66A3C" opacity="0.9"/>
+
+  <path d="M0 245 Q30 236 60 245 T120 245 T180 245 T240 245 T300 245 T360 245 T400 245"
+        fill="none" stroke="#F6F1E8" stroke-width="1.5" opacity="0.6"/>
+</svg>
